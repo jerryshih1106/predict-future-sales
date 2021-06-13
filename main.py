@@ -183,7 +183,7 @@ nor_X_test = np.resize(nor_X_test,(len(X_test),1,48))
 #====================GRU========================
 GRU_model = func.buildModel(nor_X_train.shape)
 callback = EarlyStopping(monitor="loss", patience=10, verbose=1, mode="auto")
-GRU_model.fit(nor_X_train, nor_Y_train, epochs=20, batch_size=160, validation_data=(nor_X_valid, nor_Y_valid), callbacks=[callback])
+GRU_model.fit(nor_X_train, nor_Y_train, epochs=5, batch_size=160, validation_data=(nor_X_valid, nor_Y_valid), callbacks=[callback])
 #=============save===========
 GRU_model.save('main_GRU_model.h5')
 # GRU_model = load_model('main_GRU_model.h5')
