@@ -91,4 +91,5 @@ predict : 第 34 個月的銷售量
   
 ### **GRU** <h3>
 
- 
+![image](https://user-images.githubusercontent.com/66662065/121816855-9a4d4e00-ccb0-11eb-8468-eb728d7502d8.png)
+
