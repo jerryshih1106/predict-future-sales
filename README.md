@@ -106,7 +106,7 @@ loss: 0.5016 - val_loss: 0.5839
   
 validation_0-rmse:0.60311	validation_1-rmse:0.68829
 
-## First Stage ##  
+## Second Stage ##  
 
 將三個模型預測"valid-data"整合成First Stage資料集
 
