@@ -13,7 +13,7 @@ pip install -r requirements.txt
 python main.py 
 ```
   
-執行main.py將訓練3個模型(GRU,XGBoost,LightBGM)
+執行main.py將訓練3個模型(GRU , XGBoost , LightBGM)
 並output出一個submission.csv
   
 ## Data ##
