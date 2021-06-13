@@ -83,13 +83,34 @@ valid data : 第 33 個月的data
 
 predict : 第 34 個月的銷售量 
 
+  
+![image](https://user-images.githubusercontent.com/66662065/121821949-ddb6b500-ccce-11eb-9e93-976ca5c66f60.png)
+
+  
+
+  
+
+## First Stage ##
 
 ### **LightGBM** <h3>
 
-![image](https://user-images.githubusercontent.com/66662065/121816424-185c2580-ccae-11eb-87ab-ca6954d91456.png)
+training's rmse: 0.590989	valid_1's rmse: 0.684242
 
   
 ### **GRU** <h3>
 
-![image](https://user-images.githubusercontent.com/66662065/121816855-9a4d4e00-ccb0-11eb-8468-eb728d7502d8.png)
+loss: 0.5016 - val_loss: 0.5839
 
+
+### **XGBoost** <h3>
+  
+validation_0-rmse:0.60311	validation_1-rmse:0.68829
+
+  
+將三個模型預測"valid-data"整合成First Stage資料集
+
+將資料丟進Linear Regression做第二步的訓練
+  
+## GOOGLE 簡報 ##
+
+https://docs.google.com/presentation/d/10lyV-RkyssigZESbjqtZ_Od4YDNGMGI87b_R4IXjdYw/edit?usp=sharing
