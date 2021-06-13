@@ -133,12 +133,12 @@ train_mon['days'] = train_mon['month'].map(days).astype(np.int8)
 train_mon["trend"] = train_mon["item_cnt_month_lag_1"] - train_mon["item_cnt_month_lag_2"]
 #================================================================
 #===================lag6個月,消除前6個月資訊
-print(train_mon.isna().sum())
+#print(train_mon.isna().sum())
 train_mon = train_mon[train_mon.date_block_num >11]
 train_mon = func.fill_nan(train_mon)
 # train_mon.fillna(0)
 train_mon["trend"].fillna(0, inplace=True) 
-print(train_mon.isna().sum())
+#print(train_mon.isna().sum())
 # sales = sales[sales['item_price'] ]
 #==========================================================================model======================================================================================================
 # data = pd.read_csv('123.csv')
