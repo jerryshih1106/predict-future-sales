@@ -10,11 +10,19 @@ pip install -r requirements.txt
 
 ### 執行 <h3> 
 ```
-python app.py --training training.csv --testing testing.csv --output output.csv
+python main.py 
 ```
-
+  
+執行main.py將訓練3個模型(GRU,XGBoost,LightBGM)
+並output出一個submission.csv
+  
 ## Data ##
 
+### Download <h3>
+```
+https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
+```  
+  
 資料集為2013年1月至2015年10月每日銷售數據，
   
 共有60間商店、22,171項不同的商品，
