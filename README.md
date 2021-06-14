@@ -92,7 +92,7 @@ valid data : 第 33 個月的data
 test data : 第 34 個月的
 
   
-![image](https://user-images.githubusercontent.com/66662065/121885741-1eeaab80-cd47-11eb-91ce-3edd05539b4e.png)
+![image](https://user-images.githubusercontent.com/66662065/121887838-d7b1ea00-cd49-11eb-960f-68752d4cb6ff.png)
 
   
 
