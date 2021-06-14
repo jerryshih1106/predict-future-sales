@@ -92,7 +92,7 @@ valid data : 第 33 個月的data
 test data : 第 34 個月的
 
   
-![image](https://user-images.githubusercontent.com/66662065/121821949-ddb6b500-ccce-11eb-9e93-976ca5c66f60.png)
+![image](https://user-images.githubusercontent.com/66662065/121885741-1eeaab80-cd47-11eb-91ce-3edd05539b4e.png)
 
   
 
@@ -113,7 +113,9 @@ loss: 0.5016 - val_loss: 0.5839
 ### **XGBoost** <h3>
   
 validation_0-rmse:0.60311	validation_1-rmse:0.68829
-
+  
+### **Linear Regression** <h3>
+  
 ## Second Stage ##  
 
 將三個模型預測"valid-data"整合成First Stage資料集
