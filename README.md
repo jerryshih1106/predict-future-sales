@@ -63,18 +63,21 @@ https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
 ## Feature ##
 
 ### 前1~6月的特徵 ###
-
-。商店商品銷售數量平均
-
-。商店商品銷售數量總和
-
+  
+。商店商品銷售數量平均、總和
+  
 。每件商品銷售量平均
-
+  
 。每個商店的銷售量平均
-
+  
 。每個商品類別銷售量平均
-
-。每個商店以及商品類別的銷售量平均
+  
+。每個商店類型銷售量平均
+  
+。每個城市銷售量平均
+  
+。每個城市及商店類型銷售量平均
+  
 
 ### 售量趨勢 ###
 
@@ -121,7 +124,7 @@ validation_0-rmse:0.60311	validation_1-rmse:0.68829
   
 ## Second Stage ##  
 
-將三個模型預測"valid-data"整合成First Stage資料集
+將4個模型預測"valid-data"整合成First Stage資料集
 
 將資料丟進Linear Regression做第二步的訓練
   
