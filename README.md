@@ -16,7 +16,7 @@ python main.py
 執行main.py將訓練4個模型(GRU , XGBoost , LightBGM ,linear regression)
 並output出一個submission.csv
   
-![image](https://user-images.githubusercontent.com/66662065/121898939-81977380-cd56-11eb-99c2-083860f3563d.png)
+執行時間：1341.848888 秒
 
   
 ## Data ##
