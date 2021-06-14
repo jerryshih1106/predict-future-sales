@@ -16,6 +16,9 @@ python main.py
 執行main.py將訓練4個模型(GRU , XGBoost , LightBGM ,linear regression)
 並output出一個submission.csv
   
+![image](https://user-images.githubusercontent.com/66662065/121898939-81977380-cd56-11eb-99c2-083860f3563d.png)
+
+  
 ## Data ##
 
 ### Download <h3>
@@ -124,7 +127,7 @@ validation_0-rmse:0.60311	validation_1-rmse:0.68829
   
 並使用訓練好的Model來做test-data的預測
   
-![image](https://user-images.githubusercontent.com/66662065/121822584-7438a580-ccd2-11eb-9e73-3d169df24729.png)
+![image](https://user-images.githubusercontent.com/66662065/121899100-ac81c780-cd56-11eb-8bff-3445950eda95.png)
 
 
 ## GOOGLE 簡報 ##
