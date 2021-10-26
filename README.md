@@ -132,7 +132,3 @@ validation_0-rmse:0.60311	validation_1-rmse:0.68829
   
 ![image](https://user-images.githubusercontent.com/66662065/121899100-ac81c780-cd56-11eb-8bff-3445950eda95.png)
 
-
-## GOOGLE 簡報 ##
-
-https://docs.google.com/presentation/d/10lyV-RkyssigZESbjqtZ_Od4YDNGMGI87b_R4IXjdYw/edit?usp=sharing
